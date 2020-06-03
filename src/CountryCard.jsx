@@ -5,7 +5,6 @@ const Country = ({ key, labels,ingredients, calories, imgs }) => {
 
   const pon = () => {
     setShow(!show)
-    console.log(show)
   }
 
   return (
