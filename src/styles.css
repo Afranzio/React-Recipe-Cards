@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,500&family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Satisfy&display=swap');
+
+.App{
+  text-align: center
+}
+
+h1 , input{
+  font-family: 'Raleway', sans-serif;
+}
+
+h2{
+  font-family: 'Kanit', sans-serif;
+}
+
+h3{
+  font-family: 'Satisfy', cursive;
+}
+
+h1{
+  background: rgb(109, 163, 235);
+  display: inline-block;
+  padding: 0em 0.5em;
+  border-radius: 10px;
+}
+
+img{
+  width: 250px;
+  border-radius: 7px;
+}
+
+form{
+  display: flex;
+  margin: 2em;
+  text-align:center;
+}
+
+input{
+  font-size: 1em;
+  border-radius: 7px;
+  border-width: 1px;
+  width: 60vw;
+}
+
+button{
+  font-family: 'Kaushan Script', cursive;
+  font-size: 1em;
+  margin: 0.5em 1em;
+  padding : 0.2em 0.5em;
+  background: rgba(4, 137, 253, 0.39);
+  border-radius: 7px;
+  border:none
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card{
+  width: 40vw;
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(7,121,222,1) 0%, rgba(20,72,140,1) 90% );
+  padding: 0.5em;
+  margin : 1em;
+  border-radius: 15px;
+}
+
+.ingredent{
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(111,111,219,1) 0%, rgba(182,109,246,1) 72.4% );
+  border-radius: 10px;
+  font-size: 1em;
+  padding: 0.2em;
+  text-align:left;
+}
